@@ -52,6 +52,18 @@ Izstrādes soļi:
 3. Uzdevumu dzēšana
 4. Datu saglabāšana failā
 5. Uzdevumu atzīmēšana kā izpildīti
+## Programmatūras projektējums
+
+Izmantotās tehnoloģijas:
+- Python
+- Tkinter
+- JSON fails
+- GitHub
+
+Programmas logs sastāv no:
+- teksta ievades lauka
+- pogām “Pievienot”, “Dzēst”, “Izpildīts”
+- uzdevumu saraksta
 
 
 
