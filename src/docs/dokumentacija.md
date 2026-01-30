@@ -3,4 +3,7 @@
 
 Darbu pie projekta sāku ar vienkārša grafiskā loga izveidi lai pārbaudītu kā darbojas Tkinter un vai programma pareizi atveras. Šajā posmā tika izveidots tikai logs un teksta ievades lauks kur vēlāk būs iespējams ievadīt uzdevumus.
 
+## Uzdevumu pievienošana
+
+Nākamajā posmā programmai pievienoju  pogu “Pievienot”, kas ļauj ievadīto tekstu pievienot uzdevumu sarakstam.
 
