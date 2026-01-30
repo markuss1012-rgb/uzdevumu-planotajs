@@ -7,6 +7,21 @@ Tāpēc radās ideja izveidot vienkāršu uzdevumu plānotāju, kur visi uzdevum
 
 Mērķauditorija ir skolēni, kuri vēlas vienkārši pierakstīt un pārskatīt savus uzdevumus.
 
+Programmatūras prasības
+
+### Funkcionālās prasības
+- Pievienot uzdevumu
+- Dzēst uzdevumu
+- Atzīmēt uzdevumu kā izpildītu
+- Saglabāt uzdevumus failā
+- Ielādēt uzdevumus, atverot programmu
+
+### Nefunkcionālās prasības
+- Programmai jābūt vienkāršai un viegli lietojamai
+- Programma darbojas Windows vidē
+- Programma izstrādāta Python valodā
+
+
 ## Projekta sākotnējā izveide
 
 Darbu pie projekta sāku ar vienkārša grafiskā loga izveidi lai pārbaudītu kā darbojas Tkinter un vai programma pareizi atveras. Šajā posmā tika izveidots tikai logs un teksta ievades lauks kur vēlāk būs iespējams ievadīt uzdevumus.
