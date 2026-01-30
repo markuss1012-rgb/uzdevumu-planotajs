@@ -4,10 +4,10 @@ import json
 import os
 
 FILE_NAME = "tasks.json"
+DONE_PREFIX = "✅ "
 
 
 def load_tasks():
-    """Ielādē uzdevumus no faila, ja fails eksistē."""
     if not os.path.exists(FILE_NAME):
         return []
 
@@ -22,7 +22,6 @@ def load_tasks():
 
 
 def save_tasks():
-    """Saglabā visus uzdevumus failā."""
     data = list(listbox.get(0, tk.END))
     try:
         with open(FILE_NAME, "w", encoding="utf-8") as f:
@@ -52,13 +51,34 @@ def delete_task():
     save_tasks()
 
 
+def toggle_done():
+    sel = listbox.curselection()
+    if not sel:
+        messagebox.showwarning("Brīdinājums", "Izvēlies uzdevumu, ko atzīmēt!")
+        return
+
+    index = sel[0]
+    text = listbox.get(index)
+
+    if text.startswith(DONE_PREFIX):
+        new_text = text[len(DONE_PREFIX):]
+    else:
+        new_text = DONE_PREFIX + text
+
+    listbox.delete(index)
+    listbox.insert(index, new_text)
+    listbox.selection_set(index)
+
+    save_tasks()
+
+
 root = tk.Tk()
 root.title("Uzdevumu plānotājs")
-root.geometry("420x320")
+root.geometry("460x340")
 
 tk.Label(root, text="Ievadi uzdevumu:").pack(pady=(15, 5))
 
-entry = tk.Entry(root, width=40)
+entry = tk.Entry(root, width=45)
 entry.pack(pady=5)
 
 btn_frame = tk.Frame(root)
@@ -66,15 +86,12 @@ btn_frame.pack(pady=5)
 
 tk.Button(btn_frame, text="Pievienot", command=add_task, width=12).grid(row=0, column=0, padx=5)
 tk.Button(btn_frame, text="Dzēst", command=delete_task, width=12).grid(row=0, column=1, padx=5)
+tk.Button(btn_frame, text="Izpildīts", command=toggle_done, width=12).grid(row=0, column=2, padx=5)
 
-listbox = tk.Listbox(root, width=50, height=10)
+listbox = tk.Listbox(root, width=60, height=10)
 listbox.pack(pady=10)
 
-# ielādējam uzdevumus startā
 for task in load_tasks():
     listbox.insert(tk.END, task)
 
 root.mainloop()
-
-
-
