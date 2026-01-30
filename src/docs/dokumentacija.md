@@ -10,3 +10,6 @@ Nākamajā posmā programmai pievienoju  pogu “Pievienot”, kas ļauj ievadī
 ## Uzdevumu dzēšana
 
 Programmai tika pievienota poga “Dzēst” kas ļauj izdzēst izvēlēto uzdevumu no saraksta. Ja lietotājs nav izvēlējies nevienu uzdevumu programma parāda brīdinājumu.
+## Datu saglabāšana un ielāde
+
+Lai uzdevumi nepazust'u pēc programmas aizvēršanas tika pievienota saglabāšana failā. Programma automātiski saglabā uzdevumu sarakstu `tasks.json` failā pēc pievienošanas vai dzēšanas. Atverot programmu uzdevumi tiek ielādēti no šī faila.
