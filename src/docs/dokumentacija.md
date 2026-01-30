@@ -64,6 +64,16 @@ Programmas logs sastāv no:
 - teksta ievades lauka
 - pogām “Pievienot”, “Dzēst”, “Izpildīts”
 - uzdevumu saraksta
+## Lietotāja ceļvedis
+
+1. Atver programmu.
+2. Teksta laukā ieraksti uzdevumu.
+3. Nospied pogu “Pievienot”, lai uzdevums parādītos sarakstā.
+4. Izvēlies uzdevumu un:
+   - nospied “Dzēst”, lai to izdzēstu;
+   - nospied “Izpildīts”, lai atzīmētu kā izdarītu.
+5. Aizverot programmu, uzdevumi tiek saglabāti automātiski.
+6. Atverot programmu atkārtoti, saglabātie uzdevumi tiek ielādēti.
 
 
 
