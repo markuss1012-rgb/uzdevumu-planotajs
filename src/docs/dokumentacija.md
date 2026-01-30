@@ -1,4 +1,12 @@
 # Programmatūras projekta dokumentācija
+## Prasību izpēte
+
+Ikdienā skolēniem ir daudz uzdevumu, kurus viegli aizmirst vai sajaukt. Arī man bieži gadījās, ka uzdevumi bija pierakstīti dažādās vietās vai netika pierakstīti vispār.
+
+Tāpēc radās ideja izveidot vienkāršu uzdevumu plānotāju, kur visi uzdevumi būtu vienuviet.
+
+Mērķauditorija ir skolēni, kuri vēlas vienkārši pierakstīt un pārskatīt savus uzdevumus.
+
 ## Projekta sākotnējā izveide
 
 Darbu pie projekta sāku ar vienkārša grafiskā loga izveidi lai pārbaudītu kā darbojas Tkinter un vai programma pareizi atveras. Šajā posmā tika izveidots tikai logs un teksta ievades lauks kur vēlāk būs iespējams ievadīt uzdevumus.
