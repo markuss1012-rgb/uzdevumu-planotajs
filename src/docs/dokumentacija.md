@@ -7,3 +7,6 @@ Darbu pie projekta sāku ar vienkārša grafiskā loga izveidi lai pārbaudītu 
 
 Nākamajā posmā programmai pievienoju  pogu “Pievienot”, kas ļauj ievadīto tekstu pievienot uzdevumu sarakstam.
 
+## Uzdevumu dzēšana
+
+Programmai tika pievienota poga “Dzēst” kas ļauj izdzēst izvēlēto uzdevumu no saraksta. Ja lietotājs nav izvēlējies nevienu uzdevumu programma parāda brīdinājumu.
