@@ -42,6 +42,17 @@ Tika pievienota poga “Izpildīts”, kas ļauj izvēlēto uzdevumu atzīmēt k
 ## Programmas izpildfaila izveide
 
 tika izveidots izpildfails (.exe). 
+## Projektēšana
+
+Projektā tika izmantota pakāpeniska izstrāde, sākot ar vienkāršu programmas logu un pamazām pievienojot jaunas funkcijas.
+
+Izstrādes soļi:
+1. Programmas loga izveide
+2. Uzdevumu pievienošana
+3. Uzdevumu dzēšana
+4. Datu saglabāšana failā
+5. Uzdevumu atzīmēšana kā izpildīti
+
 
 
 
