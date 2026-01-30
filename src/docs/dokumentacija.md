@@ -39,4 +39,10 @@ Lai uzdevumi nepazust'u pēc programmas aizvēršanas tika pievienota saglabāš
 ## Uzdevumu atzīmēšana kā izpildīti
 
 Tika pievienota poga “Izpildīts”, kas ļauj izvēlēto uzdevumu atzīmēt kā izdarītu. Izpildītajiem uzdevumiem priekšā parādās “✅”. Nospiežot pogu vēlreiz, atzīme tiek noņemta.
+## Programmas izpildfaila izveide
+
+tika izveidots izpildfails (.exe). 
+
+
+
 
