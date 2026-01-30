@@ -36,3 +36,7 @@ Programmai tika pievienota poga “Dzēst” kas ļauj izdzēst izvēlēto uzdev
 ## Datu saglabāšana un ielāde
 
 Lai uzdevumi nepazust'u pēc programmas aizvēršanas tika pievienota saglabāšana failā. Programma automātiski saglabā uzdevumu sarakstu `tasks.json` failā pēc pievienošanas vai dzēšanas. Atverot programmu uzdevumi tiek ielādēti no šī faila.
+## Uzdevumu atzīmēšana kā izpildīti
+
+Tika pievienota poga “Izpildīts”, kas ļauj izvēlēto uzdevumu atzīmēt kā izdarītu. Izpildītajiem uzdevumiem priekšā parādās “✅”. Nospiežot pogu vēlreiz, atzīme tiek noņemta.
+
